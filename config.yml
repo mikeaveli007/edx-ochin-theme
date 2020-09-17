@@ -1,17 +1,19 @@
-INDIGO_WELCOME_MESSAGE: "The place for all your online learning"
-INDIGO_PRIMARY_COLOR: "#3b85ff" # cool blue
+OLIX_WELCOME_MESSAGE: "The place for all your online learning"
+OLIX_PRIMARY_COLOR: "#02283a"
+OLIX_SECONDARY_COLOR: "#607c8c"
+OLIX_WARNING_COLOR: "#F77F00"
+OLIX_INFO_COLOR: "#cce226"
+OLIX_SUCCESS_COLOR: "#568e14"
 
 # Footer links are dictionaries with a "title" and "url"
 # To remove all links, write:
-# INDIGO_FOOTER_NAV_LINKS: []
-# INDIGO_FOOTER_LEGAL_LINKS: []
-INDIGO_FOOTER_NAV_LINKS:
+# OLIX_FOOTER_NAV_LINKS: []
+# OLIX_FOOTER_LEGAL_LINKS: []
+OLIX_FOOTER_NAV_LINKS:
   - title: "About"
     url: "/about"
   - title: "Contact"
     url: "/contact"
-INDIGO_FOOTER_LEGAL_LINKS:
+OLIX_FOOTER_LEGAL_LINKS:
     - title: "Terms of service"
       url: "/tos"
-    - title: "Indigo theme for Open edX"
-      url: "https://github.com/overhangio/indigo"

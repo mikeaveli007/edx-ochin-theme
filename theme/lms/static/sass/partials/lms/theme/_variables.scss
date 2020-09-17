@@ -1,4 +1,8 @@
-$primary: {{ INDIGO_PRIMARY_COLOR }};
+$primary: {{ OLIX_PRIMARY_COLOR }};
+$secondary: {{ OLIX_SECONDARY_COLOR }};
+$info: {{ OLIX_INFO_COLOR }};
+$warning: {{ OLIX_WARNING_COLOR }};
+$success: {{ OLIX_SUCCESS_COLOR }};
 
 // Theme fonts
 $font-family-title: Plex;
