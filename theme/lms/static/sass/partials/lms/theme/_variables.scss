@@ -1,13 +1,37 @@
-$primary: {{ OLIX_PRIMARY_COLOR }};
-$secondary: {{ OLIX_SECONDARY_COLOR }};
-$info: {{ OLIX_INFO_COLOR }};
-$warning: {{ OLIX_WARNING_COLOR }};
-$success: {{ OLIX_SUCCESS_COLOR }};
+//colors
+$primary: #02283a;
+$secondary: #607c8c;
+$info: #cce226;
+$warning: #F77F00;
+$success: #568e14;
+
+$default-border-radius: .25rem;
+
+$forum-color-primary: $primary;
+$forum-color-hover: $primary;
+
+$seq-nav-link-color: $info;
+
+$m-blue-l1: tint($primary, 10%);
+$m-blue-l2: tint($primary, 20%);
+$m-blue-l3: tint($primary, 40%);
+$m-blue-l4: tint($primary, 60%);
+$m-blue-l5: tint($primary, 80%);
+$m-blue-l6: tint($primary, 90%);
+$m-blue-d1: shade($primary, 10%);
+$m-blue-d2: shade($primary, 20%);
+$m-blue-d3: shade($primary, 40%);
+$m-blue-d4: shade($primary, 60%);
+$m-blue-d5: shade($primary, 80%);
+$m-blue-d6: shade($primary, 90%);
 
 // Theme fonts
 $font-family-title: Plex;
 $serif: Crimson;
 $f-sans-serif: Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$component-border-radius: $default-border-radius;
+$btn-border-radius: $default-border-radius;
 
 // Initialize the Open edX Bootstrap theme
 @import 'edx-bootstrap/sass/open-edx/theme';
